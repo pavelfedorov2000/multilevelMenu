@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Многоуровневое меню</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">
+                            Элемент 1
+                        </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">
+                            Элемент 2
+                        </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">
+                            Элемент 3
+                        </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">
+                            Элемент 4
+                        </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">
+                            Элемент 5
+                        </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__list-link" href="#">
+                            Элемент 6
+                        </a>
+                    </li>
+                </ul>
+                <div id="submenu-2" class="submenu">
+                    <ul class="submenu__list">
+                        <li class="submenu__list-item">
+                            <a href="#" class="submenu__list-link">
+                                Элемент 2.1
+                            </a>
+                        </li>
+                        <li class="submenu__list-item">
+                            <a href="#" class="submenu__list-link">
+                                Элемент 2.2
+                            </a>
+                            <ul class="submenu__sublist">
+                                <li class="submenu__sublist-item">
+                                    <a class="submenu__sublist-list" href="#">
+                                        Элемент 2.2.1
+                                    </a>
+                                </li>
+                                <li class="submenu__sublist-item">
+                                    <a class="submenu__sublist-list" href="#">
+                                        Элемент 2.2.2
+                                    </a>
+                                </li>
+                                <li class="submenu__sublist-item">
+                                    <a class="submenu__sublist-list" href="#">
+                                        Элемент 2.2.3
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="submenu__list-item">
+                            <a href="#" class="submenu__list-link">
+                                Элемент 2.3
+                            </a>
+                        </li>
+                        <li class="submenu__list-item">
+                            <a href="#" class="submenu__list-link">
+                                Элемент 2.4
+                            </a>
+                            <ul class="submenu__sublist">
+                                <li class="submenu__sublist-item">
+                                    <a class="submenu__sublist-list" href="#">
+                                        Элемент 2.4.1
+                                    </a>
+                                </li>
+                                <li class="submenu__sublist-item">
+                                    <a class="submenu__sublist-list" href="#">
+                                        Элемент 2.4.2
+                                    </a>
+                                </li>
+                                <li class="submenu__sublist-item">
+                                    <a class="submenu__sublist-list" href="#">
+                                        Элемент 2.4.3
+                                    </a>
+                                </li>
+                                <li class="submenu__sublist-item">
+                                    <a class="submenu__sublist-list" href="#">
+                                        Элемент 2.4.4
+                                    </a>
+                                </li>
+                                <li class="submenu__sublist-item">
+                                    <a class="submenu__sublist-list" href="#">
+                                        Элемент 2.4.5
+                                    </a>
+                                </li>
+                                <li class="submenu__sublist-item">
+                                    <a class="submenu__sublist-list" href="#">
+                                        Элемент 2.4.6
+                                    </a>
+                                </li>
+                                <li class="submenu__sublist-item">
+                                    <a class="submenu__sublist-list" href="#">
+                                        Элемент 2.4.7
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="submenu__list-item">
+                            <a href="#" class="submenu__list-link">
+                                Элемент 2.5
+                            </a>
+                        </li>
+                        <li class="submenu__list-item">
+                            <a href="#" class="submenu__list-link">
+                                Элемент 2.6
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="submenu-4" class="submenu">
+                    <ul class="submenu__list">
+                        <li class="submenu__list-item">
+                            <a href="#" class="submenu__list-link">
+                                Элемент 4.1
+                            </a>
+                        </li>
+                        <li class="submenu__list-item">
+                            <a href="#" class="submenu__list-link">
+                                Элемент 4.2
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="header__top">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu mobile-menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a href="#" class="menu__list-link">
+                                Элемент 1
+                            </a>
+                        </li>
+                        <li class="menu__list-item">
+                            <div class="menu__list-iteminner">
+                                <a href="#" class="menu__list-link">
+                                    Элемент 2
+                                </a>
+                                <span class="drop-arrow"></span>
+                            </div>
+                            <div id="submenu-2" class="submenu">
+                                <ul class="submenu__list">
+                                    <li class="submenu__list-item">
+                                        <a href="#" class="submenu__list-link">
+                                            Элемент 2.1
+                                        </a>
+                                    </li>
+                                    <li class="submenu__list-item">
+                                        <div class="menu__list-iteminner">
+                                            <a href="#" class="submenu__list-link">
+                                                Элемент 2.2
+                                            </a>
+                                            <span class="drop-arrow"></span>
+                                        </div>
+                                        <ul class="submenu__sublist">
+                                            <li class="submenu__sublist-item">
+                                                <a class="submenu__sublist-link" href="#">
+                                                    Элемент 2.2.1
+                                                </a>
+                                            </li>
+                                            <li class="submenu__sublist-item">
+                                                <a class="submenu__sublist-link" href="#">
+                                                    Элемент 2.2.2
+                                                </a>
+                                            </li>
+                                            <li class="submenu__sublist-item">
+                                                <a class="submenu__sublist-link" href="#">
+                                                    Элемент 2.2.3
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="submenu__list-item">
+                                        <a href="#" class="submenu__list-link">
+                                            Элемент 2.3
+                                        </a>
+                                    </li>
+                                    <li class="submenu__list-item">
+                                        <div class="menu__list-iteminner">
+                                            <a href="#" class="submenu__list-link">
+                                                Элемент 2.4
+                                            </a>
+                                            <span class="drop-arrow"></span>
+                                        </div>
+                                        <ul class="submenu__sublist">
+                                            <li class="submenu__sublist-item">
+                                                <a class="submenu__sublist-link" href="#">
+                                                    Элемент 2.4.1
+                                                </a>
+                                            </li>
+                                            <li class="submenu__sublist-item">
+                                                <a class="submenu__sublist-link" href="#">
+                                                    Элемент 2.4.2
+                                                </a>
+                                            </li>
+                                            <li class="submenu__sublist-item">
+                                                <a class="submenu__sublist-link" href="#">
+                                                    Элемент 2.4.3
+                                                </a>
+                                            </li>
+                                            <li class="submenu__sublist-item">
+                                                <a class="submenu__sublist-link" href="#">
+                                                    Элемент 2.4.4
+                                                </a>
+                                            </li>
+                                            <li class="submenu__sublist-item">
+                                                <a class="submenu__sublist-link" href="#">
+                                                    Элемент 2.4.5
+                                                </a>
+                                            </li>
+                                            <li class="submenu__sublist-item">
+                                                <a class="submenu__sublist-link" href="#">
+                                                    Элемент 2.4.6
+                                                </a>
+                                            </li>
+                                            <li class="submenu__sublist-item">
+                                                <a class="submenu__sublist-link" href="#">
+                                                    Элемент 2.4.7
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="submenu__list-item">
+                                        <a href="#" class="submenu__list-link">
+                                            Элемент 2.5
+                                        </a>
+                                    </li>
+                                    <li class="submenu__list-item">
+                                        <a href="#" class="submenu__list-link">
+                                            Элемент 2.6
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#" class="menu__list-link">
+                                Элемент 3
+                            </a>
+                        </li>
+                        <li class="menu__list-item">
+                            <div class="menu__list-iteminner">
+                                <a href="#" class="menu__list-link">
+                                    Элемент 4
+                                </a>
+                                <span class="drop-arrow"></span>
+                            </div>
+                            <div id="submenu-4" class="submenu">
+                                <ul class="submenu__list">
+                                    <li class="submenu__list-item">
+                                        <a href="#" class="submenu__list-link">
+                                            Элемент 4.1
+                                        </a>
+                                    </li>
+                                    <li class="submenu__list-item">
+                                        <a href="#" class="submenu__list-link">
+                                            Элемент 4.2
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#" class="menu__list-link">
+                                Элемент 5
+                            </a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#" class="menu__list-link">
+                                Элемент 6
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis repellat enim obcaecati mollitia eius magni ex deleniti necessitatibus voluptates itaque ut reiciendis libero, et maxime veritatis. Corporis est quis iste.</p>
+            <p>Earum expedita inventore eos beatae facere unde itaque nemo esse consequuntur ex consequatur quis repudiandae, odio rerum iusto, quia optio harum amet quam deserunt perspiciatis. Aspernatur sunt quis eligendi repellendus.</p>
+            <p>Quis, dolore fugiat dicta totam odio, dolorum quia ut maiores, possimus impedit nesciunt cupiditate. Sequi aspernatur ducimus repellat consectetur quasi voluptas placeat! Nihil, quisquam error officiis repellat tempora voluptatum possimus.</p>
+            <p>Similique, nobis delectus minima fuga, alias officiis aspernatur expedita dolore architecto repudiandae porro pariatur possimus non impedit dicta veritatis itaque velit molestias quas soluta atque necessitatibus beatae. Officiis, labore fugit!</p>
+            <p>Fugiat molestias enim rerum repellat optio quisquam atque omnis eveniet sapiente unde! Veniam placeat nulla eum vel quae libero odio sequi accusantium harum eaque. Optio quos inventore quam dolore perferendis.</p>
+            <p>Rem numquam delectus, deserunt consectetur veritatis ad voluptatum temporibus harum, itaque, dolorum minus quas nam nisi amet vero tempora tenetur hic. Rerum atque veritatis, voluptate corporis reprehenderit sunt temporibus quas.</p>
+            <p>Consequatur tempora nobis, placeat magnam dolorum iusto officiis maiores necessitatibus facilis labore minus ipsa quisquam tenetur totam ex sed, deserunt praesentium harum. Maxime, obcaecati. Aliquid vitae harum corrupti id qui!</p>
+            <p>Dolore id iure iste blanditiis deleniti, cum officia tempora earum amet, necessitatibus repellendus. Maxime, expedita reprehenderit earum ab asperiores rem harum perferendis sed atque reiciendis ullam velit veritatis doloribus facere.</p>
+            <p>Facere totam dignissimos ipsum, a fugit assumenda velit non. Beatae libero labore, laboriosam ea totam, sequi, dicta architecto quis sed et quod? Vitae ab placeat illo sit eum dolorum quos?</p>
+        </div>
+    </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
